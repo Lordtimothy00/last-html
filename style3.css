@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 50px;
+    background-color: #0f172A;
+    color: white;
+}
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+nav ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    display: flex;
+    width: 80%;
+}
+nav li a{
+    padding: 10px;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0px 20px;
+    color: white;
+    font-size: medium;
+   font-style: normal;
+}
+.hh1{
+    font-size: xx-large;
+    margin: 20px 0px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+.time{
+    margin: 10px 0px;
+    font-size: small;
+}
+.main{
+    font-size: medium;
+    margin: 20px 0px;
+    line-height: 1.6;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.h21 , .h22,.h23{
+    font-size: x-large;
+    margin: 20px 0px;
+    font-weight: bold;
+    font-style: normal;
+}
+.p1{
+    margin: 20px 0px;
+}
+.div1,.div2,.div3,.list{
+    margin: 20px 0px;
+    line-height: 1.6;
+    align-items: center;
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    border: 16px;
+}
+.container{
+    margin: 50px 50px;
+    line-height: 2rem;
+    text-align:start;
+} 
+.footer{
+    padding-top: 50px;
+    font-size: medium;
+   font-style: normal;
+}
+.copy{
+font-size: medium;
+font-style: normal;
+}
+.Newsletter{
+    display: flex;
+    gap: 150px;
+    font-size: medium;
+   font-style: normal;
+}
+ .butt{
+    padding: 6px 14px;
+    border: none;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: black;
+    font-weight: bold;
+    border-radius: 25px;
+    position: relative;
+} 
+.news ,.post , .project , .Ixartz, .consequatur , .necessitatibus{
+  color:#00c6ff 
+}
+
+.container{
+    margin: 50px 50px;
+    line-height: 2rem;
+    text-align:start;
+} 
+.container-icon svg{
+    width: 50px;
+    margin: 0px 10px;
+    align-items: center;
+    padding-top: 0px;
+     
+}
+.subscribe-box {
+  display: flex;
+  align-items: center;
+  background-color: #1E293B;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 350px;
+}
+.subscribe-box input {
+  flex: 1;
+  padding: 12px 20px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  font-size: 1rem;
+}
+.subscribe-box button {
+  background: linear-gradient(90deg, #00C6FF, #0072FF);
+  border: none;
+  padding: 12px 25px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.subscribe-box button:hover {
+  opacity: 0.9;
+}
+
+
+
+@media (max-width: 600px) {
+  body {
+    margin: 20px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  nav ul li {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hh1 {
+    font-size: 1.5rem;
+  }
+
+  .time {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .img1 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .main {
+    margin: 10px;
+    font-size: 0.9rem;
+  }
+
+  .h21, .h22, .h23 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .Newsletter {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .subscribe-box {
+    width: 100%;
+  }
+
+  .container {
+    margin: 20px 10px;
+    text-align: center;
+  }
+
+  .container-icon svg {
+    width: 35px;
+    margin: 5px;
+  }
+
+  .footer {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
